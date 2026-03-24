@@ -20,7 +20,7 @@ export const MouseFollowCard = ({ children, className }: { children: React.React
       onMouseEnter={() => setOpacity(1)}
       onMouseLeave={() => setOpacity(0)}
       className={cn(
-        "relative rounded-3xl bg-surface-1 border border-white/5 overflow-hidden transition-colors flex flex-col",
+        "relative rounded-3xl bg-surface-1 border border-white/5 overflow-hidden transition-colors flex flex-col hover:border-white/10",
         className
       )}
     >
@@ -28,7 +28,7 @@ export const MouseFollowCard = ({ children, className }: { children: React.React
         className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"
         style={{
           opacity,
-          background: `radial-gradient(600px circle at ${position.x}px ${position.y}px, rgba(245,158,11,.08), transparent 40%)`,
+          background: `radial-gradient(600px circle at ${position.x}px ${position.y}px, rgba(220,38,38,.06), transparent 40%)`,
         }}
       />
       <div className="relative z-10 p-8 h-full flex flex-col">{children}</div>

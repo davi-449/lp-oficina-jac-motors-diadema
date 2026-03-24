@@ -27,19 +27,22 @@ export const TrustSection = () => {
             </div>
 
             <div className="mt-8 flex flex-col gap-4">
-              <div className="bg-surface-1 p-6 rounded-3xl border border-white/5">
+              <div className="bg-surface-1 p-6 rounded-3xl border border-white/5 border-l-2 border-l-primary relative overflow-hidden group">
+                <div className="absolute -bottom-4 -right-2 text-8xl text-primary/5 font-serif font-black leading-none group-hover:text-primary/10 transition-colors">"</div>
                 <p className="font-serif italic text-lg text-zinc-200">
                   "Conhece bem o produto e realiza um ótimo trabalho com a sua equipe."
                 </p>
                 <p className="mt-3 text-sm font-bold text-primary tracking-widest">— Marcelo Matheus</p>
               </div>
-              <div className="bg-surface-1 p-6 rounded-3xl border border-white/5">
+              <div className="bg-surface-1 p-6 rounded-3xl border border-white/5 border-l-2 border-l-primary relative overflow-hidden group">
+                <div className="absolute -bottom-4 -right-2 text-8xl text-primary/5 font-serif font-black leading-none group-hover:text-primary/10 transition-colors">"</div>
                 <p className="font-serif italic text-lg text-zinc-200">
                   "Me ajudou no que eu precisa, trocou a peça rápido."
                 </p>
                 <p className="mt-3 text-sm font-bold text-primary tracking-widest">— Márcia Leite</p>
               </div>
-              <div className="bg-surface-1 p-6 rounded-3xl border border-white/5">
+              <div className="bg-surface-1 p-6 rounded-3xl border border-white/5 border-l-2 border-l-primary relative overflow-hidden group">
+                <div className="absolute -bottom-4 -right-2 text-8xl text-primary/5 font-serif font-black leading-none group-hover:text-primary/10 transition-colors">"</div>
                 <p className="font-serif italic text-lg text-zinc-200">
                   "Serviço especializado de primeira, resolveram o problema do câmbio do meu JAC rapidinho com muita transparência."
                 </p>

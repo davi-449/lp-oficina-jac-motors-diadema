@@ -11,7 +11,8 @@ export const HeroSection = () => {
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBg})`, backgroundPosition: 'center 30%' }}
       >
-        <div className="absolute inset-0 bg-linear-to-b from-[#0a0a0a]/85 via-[#0a0a0a]/50 to-[#0a0a0a] pointer-events-none" />
+        <div className="absolute inset-0 bg-linear-to-b from-surface-0/95 via-surface-0/60 to-surface-0 pointer-events-none" />
+        <div className="absolute inset-0 bg-linear-to-r from-surface-0/80 via-transparent to-transparent pointer-events-none" />
       </div>
 
       <div className="container relative z-10 px-4 mx-auto max-w-7xl grid lg:grid-cols-2 gap-12 items-center">
@@ -21,7 +22,7 @@ export const HeroSection = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="max-w-2xl"
         >
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full mb-6 border border-white/10">
+          <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-md px-4 py-2 rounded-full mb-6 border border-white/5 shadow-lg shadow-accent-trust/5">
             <span className="relative flex h-3 w-3">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-trust opacity-75"></span>
               <span className="relative inline-flex rounded-full h-3 w-3 bg-accent-trust"></span>
@@ -29,8 +30,8 @@ export const HeroSection = () => {
             <span className="text-sm font-semibold text-zinc-200 tracking-wide uppercase">⚡ Aberto Agora &bull; 24h &bull; Diadema</span>
           </div>
 
-          <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white mb-6 leading-[1.1] tracking-tight">
-            Especialistas em <span className="text-transparent bg-clip-text bg-linear-to-r from-primary to-amber-300">JAC Motors</span> & Câmbio CVT.
+          <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white mb-6 leading-[1.05] tracking-tight">
+            Especialistas em <span className="text-transparent bg-clip-text bg-linear-to-r from-primary via-red-400 to-amber-500">JAC Motors</span> & Câmbio CVT.
           </h1>
 
           <p className="text-xl text-zinc-300 mb-10 leading-relaxed font-light">

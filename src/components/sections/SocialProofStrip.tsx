@@ -7,7 +7,7 @@ export const SocialProofStrip = () => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className="relative bg-linear-to-r from-primary/10 via-primary/5 to-primary/10 border-y border-primary/20 py-5 overflow-hidden"
+      className="relative bg-linear-to-r from-red-950/40 via-red-950/20 to-red-950/40 border-y border-primary/20 py-5 overflow-hidden"
     >
       {/* Shimmer effect */}
       <div className="absolute inset-0 bg-linear-to-r from-transparent via-primary/10 to-transparent animate-[shimmer_3s_infinite] pointer-events-none" />

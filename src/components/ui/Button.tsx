@@ -10,9 +10,9 @@ interface ButtonProps extends HTMLMotionProps<"button"> {
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant = 'primary', glow = false, children, ...props }, ref) => {
-    const baseStyle = "relative inline-flex items-center justify-center font-bold px-8 py-4 rounded-full overflow-hidden transition-colors w-full sm:w-auto cursor-pointer";
+    const baseStyle = "relative inline-flex items-center justify-center font-bold text-sm tracking-wider uppercase px-7 py-3.5 rounded-full overflow-hidden transition-colors w-full sm:w-auto cursor-pointer";
     const variants = {
-      primary: "bg-primary text-black hover:bg-primary-hover",
+      primary: "bg-primary text-white hover:bg-primary-hover",
       outline: "border-2 border-primary text-primary hover:bg-primary/10",
       ghost: "text-zinc-300 hover:text-white hover:bg-white/5"
     };
